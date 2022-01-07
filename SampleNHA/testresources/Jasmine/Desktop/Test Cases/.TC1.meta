@@ -1,0 +1,101 @@
+{
+    "testCaseName": "TC1",
+    "testSuiteName": "Test Cases",
+    "channelName": "Desktop",
+    "steps": [
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "Form1.runTC",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "5b3171ce-46fd-f5ae-096c-4fe8c2e7f57b",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "Form1.runTC"
+                    },
+                    "appName": "SampleNHA"
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "Form1.runTC",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "DeviceID": "web",
+                    "widgetPath": "Form1.runTC",
+                    "widgetType": "button",
+                    "actionType": "click",
+                    "appName": "SampleNHA"
+                },
+                "UUID": "cad3fd70-b48d-486b-91ee-9116e67c68cf"
+            },
+            "codeNotReady": false,
+            "metaEditable": false
+        },
+        {
+            "actionName": "Assert",
+            "actionIconClassName": "assets/widget_icons/assert.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeassert.svg",
+            "entity": "Form1.lblResult",
+            "metaEditable": true,
+            "dispMeta": {
+                "prop": "text"
+            },
+            "dataVariable": "lblResult",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "407b4cbe-6aab-3f93-a443-22c230a818da",
+                "messageType": "Assert",
+                "messageData": {
+                    "widgetType": "Assert",
+                    "metadata": {
+                        "assertType": "toEqual",
+                        "assertOnElement": "Form1.lblResult",
+                        "assertOnProperty": "text",
+                        "negationEnabled": false,
+                        "dataVariable": "lblResult"
+                    },
+                    "appName": "SampleNHA"
+                }
+            },
+            "codeNotReady": false,
+            "stepError": false
+        }
+    ],
+    "_currentForm": "SampleNHA/Form1",
+    "timeout": 0,
+    "dataFileName": "TC1_data",
+    "dataFileVarName": "testcaseData_1641386051467",
+    "datasetName": "dataset",
+    "appName": "SampleNHA",
+    "usedBy": {
+        "SampleNHA": [
+            "TS1.js"
+        ]
+    }
+}
