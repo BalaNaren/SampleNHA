@@ -1,0 +1,14 @@
+[
+    {
+        "testName": "TC1",
+        "appName": "SampleNHA",
+        "result": "jasmineReport05-01-2022_18_05_24.html",
+        "passedCount": 1,
+        "failedCount": 0,
+        "pendingCount": 0,
+        "timeStamp": "05-01-2022 18:05:24",
+        "runnerType": "TestCaseRecorder",
+        "channelName": "Desktop",
+        "crashed": false
+    }
+]
